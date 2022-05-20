@@ -1,0 +1,7 @@
+---
+- name: Demo playbook
+  hosts: localhost
+  tasks:
+  - name: debug information
+    debug:
+      msg: "var1: {{ var1 }}, var2: {{ var2 }}"
